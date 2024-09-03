@@ -4,5 +4,5 @@ This project is meant to display a purposeful translation of a web page layout (
   - How to create an HTML page from a wireframe  
   - What is a markup language  
   - What is the DOM  
-  - What is an element/tag, and what is their purpose  
+  - What is an element/tag, and what is its purpose  
   - What is an attribute  
