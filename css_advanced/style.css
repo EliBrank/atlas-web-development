@@ -1,0 +1,62 @@
+/* INITIALIZATION */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  /* outline: red 1px solid; */
+}
+
+
+
+/* HEADER */
+
+/* TESTIMONIALS */
+.section-testimonials {
+  background-color: var(--color-accent);
+}
+
+/* TUTORIALS */
+
+/* MEMBERSHIP */
+.section-membership {
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+}
+
+/* FAQ */
+
+/* FOOTER */
+.section-footer {
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+}
+
+
+
+/* UTILITY CLASSES */
+.upper {
+  text-transform: uppercase;
+}
+
+.text-highlight {
+  color: var(--color-accent);
+}
+
+.btn {
+  color: var(--color-secondary);
+  background-color: var(--color-accent);
+}
+
+
+
+/* VARIABLES */
+:root {
+  --color-primary: #071629;
+  --color-secondary: #FFF;
+  --color-accent: #C271FF;
+}
