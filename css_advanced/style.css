@@ -31,6 +31,19 @@ a {
   display: flex;
 }
 
+.hero-cta h1 {
+  font-size: 7.5rem;
+}
+
+.pros-cards {
+  display: flex;
+}
+
+.pros-cards img {
+  width: 150px;
+  height: 150px;
+}
+
 /* TESTIMONIALS */
 .section-testimonials {
   background-color: var(--color-accent);
