@@ -8,12 +8,28 @@
 body {
   color: var(--color-primary);
   background-color: var(--color-secondary);
+  font-family: 'Source Sans 3', sans-serif;
   /* outline: red 1px solid; */
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-secondary);
 }
 
 
 
 /* HEADER */
+.section-header {
+  background-image: url("images/pic_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--color-secondary);
+}
+
+.top-bar {
+  display: flex;
+}
 
 /* TESTIMONIALS */
 .section-testimonials {
@@ -45,11 +61,16 @@ body {
 
 .text-highlight {
   color: var(--color-accent);
+  font-weight: bold;
 }
 
 .btn {
   color: var(--color-secondary);
   background-color: var(--color-accent);
+}
+
+.avi {
+  border-radius: 50%;
 }
 
 
