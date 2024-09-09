@@ -3,13 +3,13 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  /* outline: red 1px solid; */
 }
 
 body {
   color: var(--color-primary);
   background-color: var(--color-secondary);
   font-family: 'Source Sans 3', sans-serif;
-  /* outline: red 1px solid; */
 }
 
 a {
@@ -25,18 +25,40 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--color-secondary);
+  text-align: center;
 }
 
 .top-bar {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.top-bar .logo {
+  width: 167px;
+}
+
+.top-bar .logo .logo-smile {
+  width: 36px;
+}
+
+.top-bar .logo .logo-type {
+  width: 112px;
+  float: right;
+}
+
 
 .hero-cta h1 {
   font-size: 7.5rem;
 }
 
+.pros {
+  margin: 0 auto;
+}
+
 .pros-cards {
   display: flex;
+  justify-content: space-between;
 }
 
 .pros-cards img {
@@ -56,6 +78,11 @@ a {
 }
 
 /* TUTORIALS */
+.tutorials {
+  display: flex;
+  justify-content: space-between;
+}
+
 .author img {
   width: 30px;
   height: 30px;
@@ -101,6 +128,16 @@ a {
 .section-membership {
   color: var(--color-secondary);
   background-color: var(--color-primary);
+  text-align: center;
+}
+
+.membership {
+  display: flex;
+  justify-content: space-between;
+}
+
+.membership .card img {
+  width: 44px;
 }
 
 /* FAQ */
@@ -109,6 +146,26 @@ a {
 .section-footer {
   color: var(--color-secondary);
   background-color: var(--color-primary);
+  text-align: center;
+}
+
+.bottom-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-bar .logo {
+  width: 167px;
+}
+
+.bottom-bar .logo .logo-smile {
+  width: 36px;
+}
+
+.bottom-bar .logo .logo-type {
+  width: 112px;
+  float: right;
 }
 
 
@@ -126,6 +183,10 @@ a {
 .btn {
   color: var(--color-secondary);
   background-color: var(--color-accent);
+  padding: 1rem;
+  border-radius: 2rem;
+  filter: drop-shadow(rgba(0, 0, 0, 0.5) 0 2px 10px);
+  border: none;
 }
 
 .avi {
