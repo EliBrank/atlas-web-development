@@ -4,3 +4,4 @@ These projects deal with front-end development.
 Current projects include:
 - HTML Head
 - HTML Advanced
+- CSS Advanced
