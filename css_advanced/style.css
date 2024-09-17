@@ -111,6 +111,10 @@ button {
   margin-top: 4px;
 }
 
+.pros-cards p {
+  font-style: italic;
+}
+
 .pros-cards img {
   width: 150px;
   height: 150px;
@@ -144,6 +148,10 @@ button {
 
 .testimonials .author {
   font-weight: var(--fw-bold);
+}
+
+.testimonials .subtitle {
+  font-style: italic;
 }
 
 .testimonials img {
