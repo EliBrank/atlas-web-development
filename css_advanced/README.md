@@ -7,3 +7,5 @@ This project builds upon the HTML structure already outlined in [HTML Advanced](
   - How to compute CSS Specificity Value
   - What are Box properties in CSS
   - How does the browser load a webpage
+
+A live version of the web page can be visited [here](https://elibrank.github.io/atlas-web-development/css_advanced/).
